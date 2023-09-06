@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+}
+                                     /* User Section */
+.user{
+    border: 0.1px solid #E8EBE4;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user img{
+    width: 20%;
+    border-radius: 50%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.user h5{
+    font-size: 16px;
+    font-weight:bold ;
+    color: #1B1F21;
+}
+
+.user p{
+    font-size: 10px;
+    color: #444749;
+}
+.status{
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+                                    /* Button Section */
+button {
+    background-color: #A491D2;
+    border: #FFF;
+    border: 50px solid;
+    color: #FFF;
+    height: 120px;
+    font-weight: bold;
+    padding: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color:#CDC3E6 ;
+
+}
+
+button:focus{
+    background-color: #BEC1BB;
+}
+
+                                   /* Contacts Section*/
+.contacts {
+    flex: 0 0 3rem;
+    background-color: #FFF;
+    width: 100%;
+}
+.card {
+    background-color: #FFF;
+    border: 0.1px solid #E8EBE4;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.card h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1B1F21;
+}
+
+.card p{
+    text-align: left;
+    font-size: 14px;
+    color: #444749;
+}
+
+                                /* Mainly Section */
+.mainly-section {
+    background-color:#E8EBE4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainly-section img{
+    width: 20%;
+    padding: 2em;
+}
+
+.mainly-section h1{
+    font-size: 45px;    
+}
