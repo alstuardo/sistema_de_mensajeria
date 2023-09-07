@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .flex-container{
@@ -25,7 +25,7 @@
 .user img{
     width: 20%;
     border-radius: 50%;
-    padding: 10px;
+    padding: 20px;
     padding-left: 20px;
 }
 
@@ -48,6 +48,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 0 0 0 77px;
 }
 
                                     /* Button Section */
@@ -63,9 +64,9 @@ button {
     justify-content: center;
     align-items: center;
 }
+
 button:hover{
     background-color:#CDC3E6 ;
-
 }
 
 button:focus{
@@ -78,6 +79,7 @@ button:focus{
     background-color: #FFF;
     width: 100%;
 }
+
 .card {
     background-color: #FFF;
     border: 0.1px solid #E8EBE4;
@@ -91,19 +93,21 @@ button:focus{
     width: 50px;
     border-radius: 50%;
     padding: 10px;
-    padding-left: 20px;
+    margin-left: 10px;
 }
 
 .card h5{
     font-size: 16px;
     font-weight: bold;
     color: #1B1F21;
+    margin-left: 10px;
 }
 
 .card p{
     text-align: left;
     font-size: 14px;
     color: #444749;
+    margin-left: 10px;
 }
 
                                 /* Mainly Section */
@@ -123,3 +127,4 @@ button:focus{
 .mainly-section h1{
     font-size: 45px;    
 }
+
